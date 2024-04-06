@@ -76,6 +76,9 @@ android {
 
     namespace "com.qr_code_scanner"
     defaultConfig {
+          defaultConfig {
+    missingDimensionStrategy 'react-native-camera', 'general' 
+  }
         applicationId "com.qr_code_scanner"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
